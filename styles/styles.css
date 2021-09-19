@@ -1,0 +1,9 @@
+.header1{
+    color: rgb(23, 24, 23);
+    font-size: 1.2rem;
+    display: flex;
+    border: 1px solid gainsboro;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+}

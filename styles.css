@@ -1,0 +1,123 @@
+.textHeader{
+    color: rgb(5, 119, 172);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter; /*должна быть толщина*/
+    display: flex;
+    /*border: 1px solid gainsboro;*/
+    align-items: center;
+    height: 120px;
+    justify-content: center;
+    background-color: rgb(243, 240, 240);
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.box2{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 119, 172);
+}
+.box3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: rgb(5, 119, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+.box4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: rgb(5, 119, 172);
+    display: flex;
+    justify-content: flex-start;
+}
+.box5{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    color: rgb(6, 102, 146);
+    font-size: 30px; 
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.fotoBox1{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 250px;
+    text-align: center;
+    border-radius: 2%;
+}
+.textButton{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: rgb(6, 102, 146);
+    width: 100%;
+    height: 100px;
+}
+.newButton{
+    display: inline-block;
+    position: relative;
+    width: 260px;
+    height: 35px; 
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(5, 119, 172);
+}
+.newButton:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; right: 0; bottom: -25px; /* Положение подсказки */
+    /*z-index: 1; /* Подсказку поверх других элементов */
+    background: rgba(52, 52, 53, 0.6); /* Полупрозрачный цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 9px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    }
+    .fotoText {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .fotoText1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    }
+    .fotoText2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    }
+    .fotoText3{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    }
+    .webReviews{
+    display: flex;
+    justify-content: center;
+    margin-left: 18%;
+    }
+    .webReviews_1{
+    display: flex;
+    flex-direction: column;
+    }
